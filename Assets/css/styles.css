@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Space Grotesk, Oleo Script;
+}
+.btn {
+    background-color: #2549D3;
+    color: #FAFAFA;
+    padding: 10px;
+    border-radius: 8px;
+    /* background-color: #0F298B; */
+    /* background-color: #FAFAFA; */
+}
+nav li{
+    display: inline-block;
+    
+}
+.nav li a {
+    text-decoration: none;
+    margin: auto 20px;
+    color: #000;
+}
+.nav{
+    display: flex;
+    margin: auto 20px;
+    align-items: center;
+    justify-content: center;
+}
