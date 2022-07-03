@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Space Grotesk", "Oleo-Script";
+    font-family: "Space Grotesk", "Oleo Script";
     background-color: whitesmoke;
 }
 
@@ -14,7 +14,10 @@ h2,
 h3 {
     color: #0F298B;
 }
-
+.logo h1, .footer-vallie h1{
+    font-family: "Oleo Script";
+    color: #000;
+}
 .btn {
     background-color: #2549D3;
     color: rgb(219, 215, 199);
@@ -39,6 +42,9 @@ nav li {
     text-decoration: none;
     margin: auto 20px;
     color: #000;
+}
+.nav li a:active {
+    color: #2549D3;
 }
 
 .nav {
@@ -140,12 +146,21 @@ nav li {
     width: 100vw;
     height: 100vh;
 }
+#products h1{
+    margin: auto 200px;
+}
 
 .products {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-carts {
@@ -178,30 +193,34 @@ nav li {
 
 .about {
     display: flex;
-    margin: 100px 200px;
+    margin: auto 200px;
 }
 
 .about-column {
     flex: 50%;
+    margin: 30px;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    
 }
 .about-text ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    
-    
+    grid-gap: 10px;   
 }
+
 
 .about-text li {
     list-style: none;
     text-align: left;
+}
+.about-text h2, .about-text h4 {
+    margin-bottom: 10px;
 }
 .fa-regular{
     color: #0F298B;
@@ -218,10 +237,18 @@ nav li {
     justify-content: center;
     align-items: center;
 }
-
+.featured-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-upper h2{
+   margin-bottom: 10px;
+}
 .featured-lower {
     display: flex;
-    margin: 100px 200px;
+    margin: 0px 200px;
 }
 
 .property {
@@ -229,6 +256,15 @@ nav li {
     background-color: white;
     padding: 20px;
 }
+.property-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 10%;
+}
+.property-text span{
+    margin-left: 60%;
+}
+
 
 /* End featured properties section  */
 
@@ -244,13 +280,16 @@ nav li {
 
 .testimonials-lower {
     display: flex;
-    margin: 100px 200px;
+    margin: 0px 200px;
 }
 
 .customer {
     margin: 30px;
     background-color: white;
     padding: 20px;
+}
+.customer h4, .customer h5{
+    margin-bottom: 10px;
 }
 
 /* End testimonial section  */
@@ -274,6 +313,7 @@ nav li {
     padding: 20px;
 }
 
+.footer h1,
 .footer h3,
 .footer li,
 .footer p {
