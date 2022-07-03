@@ -103,7 +103,12 @@ nav li {
 .hero-text button {
     margin: 20px 0;
 }
-
+.play-icon{
+    display: flex;
+}
+.play-icon button{
+    margin-right: 30px;
+}
 .hero-image {
     background-image: url("../images/image\ 1.png");
     background-position: center;
