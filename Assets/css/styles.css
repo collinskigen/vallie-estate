@@ -182,3 +182,22 @@ nav li {
     text-decoration: none;
 }
 /* End about section  */
+
+/* Featured properties */
+#featured {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-lower {
+    display: flex;
+    margin: 100px 200px;
+}
+.property{
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+}
