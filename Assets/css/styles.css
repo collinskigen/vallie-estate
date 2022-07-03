@@ -201,3 +201,24 @@ nav li {
     background-color: white;
     padding: 20px;
 }
+/* End featured properties section  */
+
+/* Testimonials  */
+#testimonials {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-lower{
+    display: flex;
+    margin: 100px 200px;
+}
+.customer{
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+}
+/* End testimonial section  */
