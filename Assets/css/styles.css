@@ -17,12 +17,11 @@ h1, h2, h3{
 }
 .btn {
     background-color: #2549D3;
-    color: #FAFAFA;
+    color: rgb(219, 215, 199);
     padding: 20px;
     border-radius: 8px;
     letter-spacing: 0.1rem;
-    /* background-color: #0F298B; */
-    /* background-color: #FAFAFA; */
+    
 }
 nav li{
     display: inline-block;
@@ -70,11 +69,11 @@ nav li{
 }
 .hero-text h1{
     font-size: 3rem;
-    /* margin: 20px; */
+   
 }
 .hero-text p{
     font-size: 2rem;
-    /* margin: 20px; */
+    
 }
 .hero-text h1, .hero-text p, .hero-text button{
     margin: 20px 0;
@@ -86,8 +85,28 @@ nav li{
     background-size: cover;
 }
 .hero-lower{
-    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 100px;
+    
 }
-/* .hero-lower li, .hero-lower button{
-    display: inline-block;
-} */
+.hero-lower h3{
+    
+    margin: 50px;
+
+}
+.hero-lower span{
+    display: block;
+    color: #000;
+    
+
+}
+.hero-btn{
+    display: inline;
+    margin-left: 100px;
+}
+
+
