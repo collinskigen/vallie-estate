@@ -160,3 +160,25 @@ nav li {
 .item img, .item h3, .item h2 {
     margin: 20px;
 }
+/* About section  */
+#about {
+    width: 100vw;
+    height: 100vh;
+}
+.about {
+    display: flex;
+    margin: 100px 200px;
+}
+.about-column {
+    flex: 50%;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text li {
+    text-decoration: none;
+}
+/* End about section  */
