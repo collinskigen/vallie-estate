@@ -6,7 +6,7 @@
 
 body {
     font-family: "Space Grotesk", "Oleo-Script";
-    background-color: #FAFAFA;
+    background-color: whitesmoke;
 }
 
 h1,
@@ -14,12 +14,6 @@ h2,
 h3 {
     color: #0F298B;
 }
-
-#landing-page {
-    height: 100vh;
-    width: 100vw;
-}
-
 .btn {
     background-color: #2549D3;
     color: rgb(219, 215, 199);
@@ -27,6 +21,11 @@ h3 {
     border-radius: 8px;
     letter-spacing: 0.1rem;
 
+}
+/* landing page  */
+#landing-page {
+    height: 100vh;
+    width: 100vw;
 }
 
 nav li {
@@ -109,7 +108,7 @@ nav li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: #fafafa;
     margin: 100px;
 
 }
@@ -130,4 +129,34 @@ nav li {
 .hero-btn {
     display: inline;
     margin-left: 100px;
+}
+/* End landing page  */
+
+/* Products section  */
+#products {
+    width: 100vw;
+    height: 100vh;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-carts {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    padding: 50px;
+}
+.item img, .item h3, .item h2 {
+    margin: 20px;
 }
