@@ -191,9 +191,20 @@ nav li {
     justify-content: center;
     align-items: center;
 }
+.about-text ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
 
 .about-text li {
-    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+.fa-regular{
+    color: #0F298B;
 }
 
 /* End about section  */
