@@ -14,6 +14,7 @@ h2,
 h3 {
     color: #0F298B;
 }
+
 .btn {
     background-color: #2549D3;
     color: rgb(219, 215, 199);
@@ -22,6 +23,7 @@ h3 {
     letter-spacing: 0.1rem;
 
 }
+
 /* landing page  */
 #landing-page {
     height: 100vh;
@@ -130,6 +132,7 @@ nav li {
     display: inline;
     margin-left: 100px;
 }
+
 /* End landing page  */
 
 /* Products section  */
@@ -137,17 +140,20 @@ nav li {
     width: 100vw;
     height: 100vh;
 }
+
 .products {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .product-carts {
     display: flex;
     flex-direction: row;
     width: 80%;
 }
+
 .item {
     display: flex;
     flex-direction: column;
@@ -157,30 +163,39 @@ nav li {
     background-color: white;
     padding: 50px;
 }
-.item img, .item h3, .item h2 {
+
+.item img,
+.item h3,
+.item h2 {
     margin: 20px;
 }
+
 /* About section  */
 #about {
     width: 100vw;
     height: 100vh;
 }
+
 .about {
     display: flex;
     margin: 100px 200px;
 }
+
 .about-column {
     flex: 50%;
 }
+
 .about-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .about-text li {
     text-decoration: none;
 }
+
 /* End about section  */
 
 /* Featured properties */
@@ -192,15 +207,18 @@ nav li {
     justify-content: center;
     align-items: center;
 }
+
 .featured-lower {
     display: flex;
     margin: 100px 200px;
 }
-.property{
+
+.property {
     margin: 30px;
     background-color: white;
     padding: 20px;
 }
+
 /* End featured properties section  */
 
 /* Testimonials  */
@@ -212,13 +230,48 @@ nav li {
     justify-content: center;
     align-items: center;
 }
-.testimonials-lower{
+
+.testimonials-lower {
     display: flex;
     margin: 100px 200px;
 }
-.customer{
+
+.customer {
     margin: 30px;
     background-color: white;
     padding: 20px;
 }
+
 /* End testimonial section  */
+
+/* Footer  */
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F298B;
+}
+
+.footer-column {
+
+    display: flex;
+}
+
+.footer {
+    margin: 30px;
+    padding: 20px;
+}
+
+.footer h3,
+.footer li,
+.footer p {
+    color: #fafafa;
+    margin: 10px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+/* End footer  */
